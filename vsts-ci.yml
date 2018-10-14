@@ -25,7 +25,7 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: VSTest@3
-  inputs:
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+#- task: VSTest@3
+#  inputs:
+ #   platform: '$(buildPlatform)'
+  #  configuration: '$(buildConfiguration)'
