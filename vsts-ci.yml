@@ -6,10 +6,10 @@
 pool:
   vmImage: 'VS2017-Win2016'
 
- variables:
+# variables:
 #  solution: '**/*.sln'
-  buildPlatform: 'Any CPU'
-  buildConfiguration: 'Release'
+#  buildPlatform: 'Any CPU'
+#  buildConfiguration: 'Release'
 
 steps:
 - task: NuGetToolInstaller@0
